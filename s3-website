@@ -217,5 +217,5 @@ $AWS s3 sync . s3://$S3_BUCKET/ \
         --acl public-read --delete 
 
 # Cleanup
-#rm -rf $TMPDIR
+rm -rf $TMPDIR
 popd
